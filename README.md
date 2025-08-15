@@ -20,6 +20,8 @@ Currently in development. Will release v1.0.0 shortly... Just getting it set up 
 ## Support
 Please create an [issue ticket](https://github.com/catspeed-cc/torch-my-gpu/issues) for all support inquiries. Include as much detail as possible - hardware including which GPU's, command outputs, errors if any.
 
+Master branch and version releases are supported. No support provided for development branch.
+
 ~ mooleshacat
 
 EOF
