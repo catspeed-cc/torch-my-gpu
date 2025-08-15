@@ -1,5 +1,5 @@
 # torch-my-gpu
-A torch stress test for your GPU written in Python
+A torch stress test for your NVidia GPU written in Python (compatible with enterprise GPUs like A100)
 
 Currently in development. Will release v1.0.0 shortly... Just getting it set up for distribution :)
 
