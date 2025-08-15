@@ -17,6 +17,9 @@ Currently in development. Will release v1.0.0 shortly... Just getting it set up 
 - Monitor temps throughout stress test using `tmg-gpu-temps`
 - `tmg-gpu-stress 0` replace `0` with index of GPU from `nvidia-smi` you wish to stress
 
+## Support
+Please create an [issue ticket](https://github.com/catspeed-cc/torch-my-gpu/issues) for all support inquiries. Include as much detail as possible - hardware including which GPU's, command outputs, errors if any.
+
 ~ mooleshacat
 
 EOF
