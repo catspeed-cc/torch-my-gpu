@@ -1,1 +1,0 @@
-watch -n1 -d -- nvidia-smi --query-gpu=index,name,temperature.gpu,utilization.gpu,power.draw --format=csv

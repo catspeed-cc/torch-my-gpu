@@ -1,1 +1,0 @@
-watch -n 1 'echo === GPU Processes Thu 14 Aug 2025 11:46:09 PM EDT ===; nvidia-smi --query-compute-apps=pid,process_name,used_memory,gpu_bus_id --format=csv'
