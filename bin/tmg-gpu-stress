@@ -7,7 +7,7 @@ import time
 import sys
 import gc
 
-source ./bin/activate
+source .venv/bin/activate
 
 def get_free_memory(device):
     """Return free memory in bytes"""
