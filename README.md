@@ -7,14 +7,15 @@ There is no warranty, expressed or implied, to the extent allowable by law withi
 ## Development Warning
 Currently in development. Will release v1.0.0 shortly... Just getting it set up for distribution :)
 
-## General Instructions
+## Installation
 - `git clone https://github.com/catspeed-cc/torch-my-gpu.git`
 - `cd torch-my-gpu`
 - Install the repository once `./install-torch-my-gpu.sh`
+
+## General Instructions
 - Use `tmg-nvtop` as a way to monitor GPU (it will activate venv for you)
 - Monitor temps throughout stress test using `tmg-gpu-temps`
-
-1. 
+- `tmg-gpu-stress 0` replace `0` with index of GPU from `nvidia-smi` you wish to stress
 
 ~ mooleshacat
 
