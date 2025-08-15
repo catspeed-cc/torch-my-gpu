@@ -7,6 +7,8 @@ import time
 import sys
 import gc
 
+source .venv/bin/activate
+
 def get_free_memory(device):
     """Return free memory in bytes"""
     torch.cuda.synchronize(device)
