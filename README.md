@@ -12,8 +12,13 @@ Currently in development. Will release v1.0.0 shortly... Just getting it set up 
 - `cd torch-my-gpu`
 - Install the repository once `./install-torch-my-gpu.sh`
 
+## Uninstallation
+- `./uninstall-torch-my-gpu.sh`
+- `cd ..`
+- `rm -r torch-my-gpu`
+
 ## General Instructions
-- Use `tmg-nvtop` as a way to monitor GPU (it will activate venv for you)
+- Use `nvtop` as a way to monitor GPU
 - Monitor temps throughout stress test using `tmg-gpu-temps`
 - `tmg-gpu-stress 0` replace `0` with index of GPU from `nvidia-smi` you wish to stress
 
