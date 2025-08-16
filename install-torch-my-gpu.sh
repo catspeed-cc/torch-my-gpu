@@ -12,12 +12,16 @@ source .venv/bin/activate
 
 pip install --upgrade pip
 
-pip3 install nvtop
+apt install -y nvtop
 
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121 --no-cache-dir --force-reinstall
 
+# order cuda devices by PCI_BUS_ID ascending
+echo "export CUDA_DEVICE_ORDER=PCI_BUS_ID" | tee -a ~/.bashrc
+
+# add the script bin to the PATH
 echo "export PATH=\$PATH:$SCRIPT_DIR/bin" | tee -a ~/.bashrc
 
-export PATH=$PATH:$SCRIPT_DIR/bin
+source ~/.bashrc
 
 echo "Installation should be completed."
